@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Clock</title>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/styles.css">
+</head>
+<body>
+    <div id="clock-body" class="container">
+        <div id="top-section">
+            <div id="timer">
+                <div id="center-square">
+                    <span id="time">00:00</span>
+                </div>
+            </div>
+            <span id="session-or-break">Session 1</span>
+        </div>
+        <div id="mid-section">
+            <div id="session-time">
+                <span>session time</span><br />
+                <span id="show-session-time">
+                    0 min
+                </span>
+                <div class="buttons">
+                    <button class="decrement">-</button>
+                    <button class="increment">+</button>
+                </div>
+            </div>
+            <div id="break-time">
+                <span>break time</span><br />
+                <span id="show-break-time">
+                    0 min
+                </span>
+                <div class="buttons"> 
+                    <button class="decrement">-</button>
+                    <button class="increment">+</button>
+                </div>
+            </div>
+        </div>
+        <div id="bottom-section">
+            <button id="pause">Pause</button>
+            <button id="reset">Reset</button>
+        </div>
+    </div>
+</body>
+</html>
